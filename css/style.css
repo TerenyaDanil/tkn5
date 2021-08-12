@@ -1187,11 +1187,23 @@ body.lock {
   }
 
   .nav-header__btn {
-    margin: 0rem 0rem 2rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+    position: fixed;
+    bottom: 2rem;
+    right: calc(-2rem - 100%);
+    z-index: 99;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
 
   .nav-header__btn a {
     font-size: 2rem;
+  }
+
+  .nav-header__btn.active {
+    right: 2rem;
   }
 
   main.lock {
@@ -1319,6 +1331,7 @@ body.lock {
   .prev {
     padding: 10.8rem 1.2rem 0rem;
     height: 140.4rem;
+    position: relative;
   }
 
   .prev__wrap {

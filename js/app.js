@@ -303,3 +303,19 @@ $("input[name=email]").inputmask({
 
 
 
+window.addEventListener('scroll', animOnScroll);
+let animItem = document.querySelector('.nav-header__btn');
+
+function animOnScroll() {
+	if (window.pageYOffset > 500) {
+		animItem.classList.add('active');
+	}
+	else {
+		animItem.classList.remove('active');
+	}
+}
+
+
+
+
+
