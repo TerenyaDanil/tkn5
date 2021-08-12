@@ -752,7 +752,7 @@ body.lock {
   max-width: 62.4rem;
   font-size: 3.15rem;
   line-height: 4.15rem;
-  color: rgba(213, 213, 213, 0.75);
+  color: #d5d5d5;
 }
 
 .token__text {
@@ -1348,7 +1348,7 @@ body.lock {
     line-height: 4.05rem;
     max-width: 88rem;
     text-align: center;
-    margin: 0rem 0rem 4.2rem 0rem;
+    margin: 0rem 0rem 5.2rem 0rem;
   }
 
   .prev__text {
@@ -1448,7 +1448,7 @@ body.lock {
 
   .prev__bg-mob img {
     width: 100vw;
-    height: 150.4rem;
+    height: 160.4rem;
   }
 
   .prev__bg {
@@ -1703,7 +1703,7 @@ body.lock {
   }
 
   .token__text-item img {
-    max-width: 18rem;
+    max-width: 19rem;
     left: -23rem;
   }
 
@@ -1712,7 +1712,7 @@ body.lock {
   }
 
   .token__text-item:nth-child(2) {
-    max-width: 17.5rem;
+    max-width: 18.5rem;
     text-align: left;
   }
 
