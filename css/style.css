@@ -1191,7 +1191,7 @@ body.lock {
   }
 
   .nav-header__btn a {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   main.lock {
@@ -1318,7 +1318,7 @@ body.lock {
 
   .prev {
     padding: 10.8rem 1.2rem 0rem;
-    height: 150.4rem;
+    height: 140.4rem;
   }
 
   .prev__wrap {
@@ -1714,7 +1714,6 @@ body.lock {
 
   .token__text-item:nth-child(2) {
     max-width: 18.5rem;
-    text-align: left;
   }
 
   .token__text-item:nth-child(3) {
@@ -1723,7 +1722,6 @@ body.lock {
 
   .token__text-item:nth-child(4) {
     max-width: 17rem;
-    text-align: left;
   }
 
   .token__text-item:nth-child(5) {
