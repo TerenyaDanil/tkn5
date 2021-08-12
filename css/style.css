@@ -1190,12 +1190,12 @@ body.lock {
     margin: 0rem 0rem 0rem 0rem;
     position: fixed;
     bottom: 2rem;
-    right: calc(-2rem - 100%);
+    right: 2rem;
     z-index: 99;
-    opacity: 1;
-    -webkit-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
   }
 
   .nav-header__btn a {
@@ -1203,7 +1203,7 @@ body.lock {
   }
 
   .nav-header__btn.active {
-    right: 2rem;
+    opacity: 1;
   }
 
   main.lock {
